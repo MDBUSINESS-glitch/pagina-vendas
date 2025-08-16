@@ -5,87 +5,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Criptomoedas e Ativos Digitais</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Countdown CSS -->
+  <style>
+    .countdown {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #dc2626;
+      letter-spacing: 1px;
+    }
+    .benefit-icon {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 16px;
+      transition: transform 0.5s;
+    }
+    .benefit-icon:hover {
+      transform: scale(1.2) rotate(10deg);
+    }
+    .hero-overlay {
+      background: rgba(0,0,0,0.3);
+      position: absolute;
+      inset: 0;
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-gray-50 text-gray-800 font-sans">
+
   <!-- Hero Section -->
-  <section class="bg-white shadow-md relative">
-    <img src="https://images.unsplash.com/photo-1612831669245-1e1e5a0c2e14?auto=format&fit=crop&w=1470&q=80" alt="Investimentos em criptomoedas" class="absolute inset-0 w-full h-full object-cover opacity-30">
-    <div class="relative max-w-6xl mx-auto px-6 py-16 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Impulsione seu futuro financeiro com Criptomoedas e Ativos Digitais</h1>
-      <p class="mt-4 text-lg text-gray-600">Aprenda a dominar criptomoedas e ativos digitais de forma prática e segura.</p>
-      <a href="https://pay.tutora.co.mz/checkout/pay/6328cbd18f510ea626c7" target="_blank" class="mt-6 inline-block px-8 py-3 bg-blue-600 text-white font-semibold rounded-xl shadow hover:bg-blue-700 transition">Quero Garantir Agora</a>
+  <section class="relative py-32 bg-gradient-to-br from-blue-100 via-purple-50 to-white overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1612831669245-1e1e5a0c2e14?auto=format&fit=crop&w=1470&q=80" class="absolute inset-0 w-full h-full object-cover opacity-30 z-0" alt="Investimentos">
+    <div class="hero-overlay"></div>
+    <div class="relative max-w-6xl mx-auto px-6 text-center z-10" data-aos="zoom-in">
+      <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">Impulsione seu futuro financeiro com Criptomoedas e Ativos Digitais</h1>
+      <p class="text-xl md:text-2xl text-gray-700 mb-6">Aprenda a dominar criptomoedas e ativos digitais de forma prática, segura e inteligente.</p>
+      <ul class="text-left md:text-center text-gray-700 mb-10 space-y-2 md:space-y-0 md:flex md:justify-center md:gap-10">
+        <li>💡 Estratégias práticas e comprovadas</li>
+        <li>🔒 Proteção e segurança do seu capital</li>
+        <li>📈 Maximização de lucros em ativos digitais</li>
+      </ul>
+      <a href="https://pay.tutora.co.mz/checkout/pay/6328cbd18f510ea626c7" target="_blank" class="px-12 py-5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-purple-700 hover:to-blue-700 transform hover:scale-110 text-white font-bold rounded-3xl shadow-2xl transition duration-500">Quero Garantir Agora</a>
     </div>
   </section>
 
-  <!-- Benefícios -->
-  <section class="max-w-6xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-center mb-12">O que vai ganhar com este produto</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <img src="https://images.unsplash.com/photo-1612831455547-4b0c8e1a9f1a?auto=format&fit=crop&w=800&q=80" alt="Estratégias criptomoedas" class="w-full h-40 object-cover rounded-xl mb-4">
-        <h3 class="text-xl font-semibold mb-2">Benefício 1</h3>
-        <p class="text-gray-600">Domine estratégias inteligentes para investimentos em criptomoedas.</p>
-        <img src="https://raw.githubusercontent.com/SEU_USUARIO/site-criptomoedas/main/empiricus2-653x500.png" alt="Resultados ROI 1" class="mt-4 w-full h-40 object-cover rounded-xl">
+  <!-- Benefícios com ícones animados e branding -->
+  <section class="max-w-7xl mx-auto px-6 py-32">
+    <h2 class="text-5xl font-bold text-center mb-20 text-gradient-to-r from-purple-600 to-blue-600" data-aos="fade-up">Benefícios Incríveis</h2>
+    <div class="grid md:grid-cols-3 gap-16">
+      <!-- Card 1 -->
+      <div class="bg-gradient-to-br from-white to-purple-50 p-10 rounded-3xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-3 transition duration-500 text-center" data-aos="fade-up">
+        <img src="https://raw.githubusercontent.com/SEU_USUARIO/site-criptomoedas/main/icon-strategy.png" alt="Estratégias" class="benefit-icon mx-auto">
+        <h3 class="text-2xl font-bold mb-3">Domine Estratégias Inteligentes</h3>
+        <p class="text-gray-700 mb-5">Táticas comprovadas para maximizar lucros em criptomoedas, com suporte de branding profissional.</p>
+        <i class="fas fa-chart-line text-4xl text-blue-600 mb-3"></i>
       </div>
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <img src="https://images.unsplash.com/photo-1623053619860-1d6b6c7f8a6b?auto=format&fit=crop&w=800&q=80" alt="Segurança portfólio digital" class="w-full h-40 object-cover rounded-xl mb-4">
-        <h3 class="text-xl font-semibold mb-2">Benefício 2</h3>
-        <p class="text-gray-600">Aumente a segurança e a eficácia do seu portfólio digital.</p>
-        <img src="https://raw.githubusercontent.com/SEU_USUARIO/site-criptomoedas/main/empiricus2-653x500.png" alt="Resultados ROI 2" class="mt-4 w-full h-40 object-cover rounded-xl">
+      <!-- Card 2 -->
+      <div class="bg-gradient-to-br from-white to-purple-50 p-10 rounded-3xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-3 transition duration-500 text-center" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://raw.githubusercontent.com/SEU_USUARIO/site-criptomoedas/main/icon-security.png" alt="Segurança" class="benefit-icon mx-auto">
+        <h3 class="text-2xl font-bold mb-3">Aumente a Segurança do Seu Portfólio</h3>
+        <p class="text-gray-700 mb-5">Invista com confiança e proteção, utilizando práticas seguras e interfaces modernas.</p>
+        <i class="fas fa-shield-alt text-4xl text-green-600 mb-3"></i>
       </div>
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <img src="https://images.unsplash.com/photo-1612831455555-1f2b3c4d5e6f?auto=format&fit=crop&w=800&q=80" alt="Maximizar lucros" class="w-full h-40 object-cover rounded-xl mb-4">
-        <h3 class="text-xl font-semibold mb-2">Benefício 3</h3>
-        <p class="text-gray-600">Aplique técnicas práticas para maximizar lucros em ativos digitais.</p>
-        <img src="https://raw.githubusercontent.com/SEU_USUARIO/site-criptomoedas/main/empiricus2-653x500.png" alt="Resultados ROI 3" class="mt-4 w-full h-40 object-cover rounded-xl">
-      </div>
-    </div>
-  </section>
-
-  <!-- Ebook Section -->
-  <section class="bg-blue-50 py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-6">Bónus Especial: Ebook Exclusivo</h2>
-      <p class="text-lg text-gray-700 mb-4">Receba um Ebook completo que explora o fascinante mundo das criptomoedas e ativos digitais.</p>
-      <p class="text-gray-600">As criptomoedas representam muito mais do que uma nova forma de dinheiro. Constituem a materialização de uma tecnologia disruptiva, com potencial para redefinir profundamente a forma como interagimos com o valor, a informação e, inclusive, entre nós próprios. Neste guia, analisaremos o seu potencial transformador, os desafios inerentes e as oportunidades emergentes que este setor oferece. Prepare-se para embarcar numa jornada de descoberta, conhecimento e visão de futuro, e desvendar o fascinante mundo das criptomoedas.</p>
-    </div>
-  </section>
-
-  <!-- Prova Social -->
-  <section class="bg-gray-100 py-16">
-    <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-center mb-10">O que dizem os nossos clientes</h2>
-      <div class="space-y-6">
-        <div class="bg-white p-6 rounded-2xl shadow flex items-center gap-4">
-          <img src="https://images.unsplash.com/photo-1603415526960-f7e23f6b6a2c?auto=format&fit=crop&w=100&q=80" alt="Cliente João" class="w-20 h-20 object-cover rounded-full">
-          <div>
-            <p class="text-gray-700 italic">“Investi 5.000MT e com as estratégias aprendi a multiplicar para 15.000MT em apenas 3 meses!”</p>
-            <p class="mt-2 font-semibold">— João Silva</p>
-          </div>
-        </div>
-        <div class="bg-white p-6 rounded-2xl shadow flex items-center gap-4">
-          <img src="https://images.unsplash.com/photo-1603415526960-f7e23f6b6a2c?auto=format&fit=crop&w=100&q=80" alt="Cliente Maria" class="w-20 h-20 object-cover rounded-full">
-          <div>
-            <p class="text-gray-700 italic">“Comecei com 3.000MT e consegui atingir 10.000MT com os conhecimentos adquiridos em menos de 4 meses!”</p>
-            <p class="mt-2 font-semibold">— Maria Fernandes</p>
-          </div>
-        </div>
+      <!-- Card 3 -->
+      <div class="bg-gradient-to-br from-white to-purple-50 p-10 rounded-3xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-3 transition duration-500 text-center" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://raw.githubusercontent.com/SEU_USUARIO/site-criptomoedas/main/icon-profit.png" alt="Lucros" class="benefit-icon mx-auto">
+        <h3 class="text-2xl font-bold mb-3">Maximize Seus Lucros</h3>
+        <p class="text-gray-700 mb-5">Técnicas práticas e visualizações de ROI para impulsionar seu sucesso financeiro.</p>
+        <i class="fas fa-coins text-4xl text-yellow-500 mb-3"></i>
       </div>
     </div>
   </section>
 
-  <!-- Oferta -->
-  <section class="max-w-6xl mx-auto px-6 py-16 text-center">
-    <h2 class="text-3xl font-bold mb-6">Oferta Exclusiva</h2>
-    <p class="text-lg text-gray-600 mb-8">Garanta agora seu acesso a Criptomoedas e Ativos Digitais, incluindo o Ebook exclusivo, e transforme sua abordagem em criptomoedas.</p>
-    <p class="text-4xl font-bold text-blue-600 mb-6">59MT</p>
-    <a href="https://pay.tutora.co.mz/checkout/pay/6328cbd18f510ea626c7" target="_blank" class="px-10 py-4 bg-green-600 text-white font-semibold rounded-xl shadow hover:bg-green-700 transition inline-block">Comprar Agora</a>
+  <!-- Oferta com contador e CTA avançado -->
+  <section class="max-w-6xl mx-auto px-6 py-32 text-center bg-gradient-to-r from-purple-50 to-blue-50 rounded-3xl shadow-3xl relative overflow-hidden" data-aos="zoom-in">
+    <h2 class="text-5xl font-extrabold mb-6 text-blue-700">Oferta Exclusiva</h2>
+    <p class="text-xl md:text-2xl text-gray-700 mb-6">Garanta seu acesso agora ao curso completo e ao Ebook exclusivo, com insights de especialistas do setor.</p>
+    <div class="flex justify-center items-center gap-6 mb-6">
+      <p class="text-6xl font-extrabold text-blue-600">59MT</p>
+      <div class="countdown" id="countdown">00:00:00</div>
+    </div>
+    <a href="https://pay.tutora.co.mz/checkout/pay/6328cbd18f510ea626c7" target="_blank" class="px-16 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 transform hover:scale-110 text-white font-bold rounded-3xl shadow-2xl transition duration-500">Comprar Agora</a>
   </section>
 
-  <!-- Rodapé -->
-  <footer class="bg-gray-900 text-gray-300 py-8 text-center">
+  <!-- Rodapé modernizado -->
+  <footer class="bg-gray-900 text-gray-300 py-16 text-center">
+    <div class="flex justify-center gap-6 mb-4">
+      <i class="fab fa-facebook fa-2x hover:text-blue-500 transition"></i>
+      <i class="fab fa-twitter fa-2x hover:text-blue-400 transition"></i>
+      <i class="fab fa-linkedin fa-2x hover:text-blue-700 transition"></i>
+    </div>
     <p>&copy; 2025 Criptomoedas e Ativos Digitais. Todos os direitos reservados.</p>
     <p class="text-sm mt-2">Política de Privacidade | Termos de Uso</p>
   </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1200, once: true });
+
+    // Contador regressivo
+    const countdownElement = document.getElementById('countdown');
+    const countdownDate = new Date();
+    countdownDate.setHours(countdownDate.getHours() + 24);
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      countdownElement.innerHTML = `${hours.toString().padStart(2,'0')}:${minutes.toString().padStart(2,'0')}:${seconds.toString().padStart(2,'0')}`;
+      if (distance < 0) { clearInterval(timer); countdownElement.innerHTML = 'Oferta Expirada'; }
+    }
+
+    const timer = setInterval(updateCountdown, 1000);
+    updateCountdown();
+  </script>
+
 </body>
 </html>
